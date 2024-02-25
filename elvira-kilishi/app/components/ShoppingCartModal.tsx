@@ -25,7 +25,7 @@ const ShoppingCartModal = () => {
   const initialProducts = savedCart ? JSON.parse(savedCart) : [];
   const publicKey =
     (process.env.PAYSTACK_TEST_PUBLIC_KEY as string) ||
-    "pk_test_2924cf0f06bad5a9b92fb623a0cd9a61573b319d";
+    "pk_live_76c98bc19a60c17c967cd2261cb40749e064e25c";
 
   const [products, setProducts] = useState(initialProducts);
   const [totalPrice, setTotalPrice] = useState(0);
