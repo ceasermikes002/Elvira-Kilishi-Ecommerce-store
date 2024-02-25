@@ -152,7 +152,12 @@ const Display: React.FC<DisplayProps> = ({ data }) => {
                   <span className="mx-2">{quantity}</span>
                   <Button onClick={incrementQuantity}>+</Button>
                 </div>
-                <Button onClick={() => handleAddToCart({ ...data, quantity })}>
+                <Button
+                  onClick={() => {
+                    handleAddToCart({ ...data, quantity });
+                    window.location.reload();
+                  }}
+                >
                   Add to cart
                 </Button>
               </div>
