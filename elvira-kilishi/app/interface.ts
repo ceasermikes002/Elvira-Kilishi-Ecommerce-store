@@ -14,4 +14,5 @@ export interface fullProduct {
   categoryName: string;
   images: any;
   description: string;
+  quantity: number; 
 }

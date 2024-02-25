@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Hero from "./components/Hero";
 import Newest from "./components/Newest";
+export const dynamic = 'force-dynamic'; // This makes sure that the component is re-rendered when props change
+
 
 export default function Home() {
   return (

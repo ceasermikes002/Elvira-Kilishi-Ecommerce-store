@@ -40,7 +40,7 @@ export default async function Hero() {
             <Image
               src={urlFor(data.image2).url()}
               alt="Image"
-              className="h-full w-full object-cover object-center"
+              className="h-full w-full object-cover object-center shadow-lg"
               width={300}
               height={300}
               priority
@@ -51,15 +51,15 @@ export default async function Hero() {
 
         <div className="flex flex-col items-center justify-between gap-8 md:flex-row my-10">
             <div className="flex h-12 w-64 divide-x overflow-hidden rounded-lg border">
-                <Link href={'/small'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
+                <Link href={'/Small'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
                     Small
                 </Link>
 
-                <Link href={'/medium'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
+                <Link href={'/Medium'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
                     Medium
                 </Link>
 
-                <Link href={'/large'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
+                <Link href={'/Large'} className="flex w-1/3 items-center justify-center text-gray-500 transition duration-100 hover:bg-gray-100 active:bg-gray-20">
                     Large
                 </Link>
             </div>
