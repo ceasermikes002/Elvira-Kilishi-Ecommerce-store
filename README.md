@@ -29,7 +29,7 @@ This is an eCommerce store built using React, Next.js, and other libraries. It a
 1. Clone the repository:
 
 ```
-git clone <repository-url>
+git clone <https://github.com/ceasermikes002/Elvira-Kilishi-Ecommerce-store>
 ```
 
 2. Install dependencies:
@@ -56,7 +56,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Authors
 
-- [Your Name](https://github.com/yourusername)
+- [Chimaobi Emeka-Iheonu](https://github.com/ceasermikes002)
 ```
 
-Replace `<repository-url>` with the actual URL of your GitHub repository, and update the Authors section with the relevant information.
